@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Sen:wght@400;700&display=swap");
+body {
+  background: #A18949;
+  margin: 0;
+  font-family: "sen", sans-serif;
+  overflow-x: hidden;
+}
+
+.hero-wrapper {
+  padding: 43px 50px 113px;
+}
+.hero-wrapper .Title {
+  width: 1340px;
+  height: 80px;
+  background: #3D1717;
+}
+.hero-wrapper .Title p {
+  padding: 16px 367px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: white;
+}
+.hero-wrapper .room-display {
+  padding-top: 42px;
+  display: flex;
+  gap: 127px;
+}
+.hero-wrapper .room-display .room1 {
+  border-radius: 30px;
+  width: 362px;
+  height: 358px;
+  background: #D9D9D9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero-wrapper .room-display .room1 .room1-wrapper {
+  padding: 68px 119px 68px 120px;
+  width: 123px;
+  height: 222px;
+}
+.hero-wrapper .room-display .room1 .room1-wrapper .room1-text {
+  margin: 0;
+  width: 123px;
+  height: 96px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: black;
+}
+.hero-wrapper .room-display .room1 .room1-wrapper .room1-price {
+  margin: 0;
+  padding-top: 64px;
+  width: 122px;
+  height: 62px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+}
+.hero-wrapper .room-display .room2 {
+  width: 362px;
+  height: 358px;
+  background: #D9D9D9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 30px;
+}
+.hero-wrapper .room-display .room2 .room2-wrapper {
+  padding: 68px 119px 68px 120px;
+  width: 123px;
+  height: 222px;
+}
+.hero-wrapper .room-display .room2 .room2-wrapper .room2-text {
+  margin: 0;
+  width: 123px;
+  height: 96px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: black;
+}
+.hero-wrapper .room-display .room2 .room2-wrapper .room2-price {
+  margin: 0;
+  padding-top: 64px;
+  width: 122px;
+  height: 62px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+}
+.hero-wrapper .room-display .room3 {
+  width: 362px;
+  height: 358px;
+  background: #D9D9D9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 30px;
+}
+.hero-wrapper .room-display .room3 .room3-wrapper {
+  padding: 68px 119px 68px 120px;
+  width: 123px;
+  height: 222px;
+}
+.hero-wrapper .room-display .room3 .room3-wrapper .room3-text {
+  margin: 0;
+  width: 123px;
+  height: 96px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: black;
+}
+.hero-wrapper .room-display .room3 .room3-wrapper .room3-price {
+  margin: 0;
+  padding-top: 64px;
+  width: 122px;
+  height: 62px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+}
+
+.form-wrapper {
+  padding: 113px 89px 114px 89px;
+  width: 1262px;
+  height: 274px;
+  display: flex;
+  gap: 245px;
+}
+.form-wrapper .left-section {
+  width: 765px;
+  height: 274px;
+}
+.form-wrapper .left-section label {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  color: #D9D9D9;
+}
+.form-wrapper .left-section input[type=email] {
+  margin-left: 128px;
+  padding: 0;
+  border: 0;
+  width: 514px;
+  height: 58px;
+  background: #D9D9D9;
+}
+.form-wrapper .left-section input[type=text] {
+  margin-left: 60px;
+  margin-top: 12px;
+  padding: 0;
+  border: 0;
+  width: 514px;
+  height: 58px;
+  background: #D9D9D9;
+}
+.form-wrapper .left-section .starttime {
+  margin-left: 36px;
+  margin-top: 12px;
+  padding: 0;
+  border: 0;
+  width: 514px;
+  height: 58px;
+  background: #D9D9D9;
+}
+.form-wrapper .left-section .endtime {
+  margin-left: 56px;
+  margin-top: 12px;
+  padding: 0;
+  border: 0;
+  width: 514px;
+  height: 58px;
+  background: #D9D9D9;
+}
+.form-wrapper .right-section {
+  width: 254px;
+  height: 264px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-wrapper .right-section .total-amount-text {
+  color: #D9D9D9;
+  width: 252px;
+  height: 48px;
+  margin: 0;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 48px;
+  text-align: center;
+}
+.form-wrapper .right-section .amount-display {
+  margin-top: 44px;
+  width: 243px;
+  height: 61px;
+  background: #D9D9D9;
+  border-radius: 30px;
+}
+.form-wrapper .right-section .button-wrapper {
+  margin-top: 40px;
+  width: 202px;
+  height: 71px;
+  background: #BC4C4C;
+  border-radius: 30px;
+  border: 0px;
+  cursor: pointer;
+}
+.form-wrapper .right-section .button-wrapper p {
+  color: #D9D9D9;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  margin: 0;
+  text-align: center;
+  padding-top: 12px;
+}/*# sourceMappingURL=main.css.map */
